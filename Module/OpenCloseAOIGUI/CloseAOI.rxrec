@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="30ef4f3e-b370-425c-9328-a19b1eaa02bf"
+mode="Global"
+rxversion="8.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAOI"
+	namespace="AOI_CRM_Eddie.Module.OpenCloseAOIGUI">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CloseAOI"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="chkCloseAOI"
+		namespace="AOI_CRM_Eddie.Module.OpenCloseAOIGUI"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="a2e698fd-2a44-4a71-a2c2-9fd64380ea84">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="22588ba5-6fda-41e2-9cac-86a18525f203"
+	name="AOI_CRM_EddieRepository"
+	relativepath="..\..\AOI_CRM_EddieRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="AOI_CRM_EddieRepository"
+		namespace="AOI_CRM_Eddie">
+		</codegen>
+		<rootfolder
+		id="f0c4307e-90ba-4ee1-9af3-7f794a7305e2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAOI.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

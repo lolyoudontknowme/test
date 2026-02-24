@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0068fa10-58c9-4ec3-b5f7-c8cb785c89fc"
+mode="Global"
+rxversion="8.0">
+	<name>
+		UnuseComponents
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UnuseComponents"
+	namespace="AOI_CRM_Eddie.Module.UnuseReuse">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="UnuseComponents"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="chkUnuseComponents"
+		namespace="AOI_CRM_Eddie.Module.UnuseReuse"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="13b271d6-b283-47e2-a6cb-808a603e3458">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="22588ba5-6fda-41e2-9cac-86a18525f203"
+	name="AOI_CRM_EddieRepository"
+	relativepath="..\..\AOI_CRM_EddieRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="AOI_CRM_EddieRepository"
+		namespace="AOI_CRM_Eddie">
+		</codegen>
+		<rootfolder
+		id="f0c4307e-90ba-4ee1-9af3-7f794a7305e2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UnuseComponents.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

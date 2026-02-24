@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e16b52c7-dfb4-42e4-830d-17867186b7a2"
+mode="Global"
+rxversion="8.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenAOILoadJOB"
+	namespace="AOI_CRM_Eddie.Module.OpenCloseAOIGUI">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="OpenAOILoadJOB"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="openNLoadJOB"
+		namespace="AOI_CRM_Eddie.Module.OpenCloseAOIGUI"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="cf500272-4b81-48ab-865b-b84831ed85a1">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="22588ba5-6fda-41e2-9cac-86a18525f203"
+	name="AOI_CRM_EddieRepository"
+	relativepath="..\..\AOI_CRM_EddieRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="AOI_CRM_EddieRepository"
+		namespace="AOI_CRM_Eddie">
+		</codegen>
+		<rootfolder
+		id="f0c4307e-90ba-4ee1-9af3-7f794a7305e2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenAOILoadJOB.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

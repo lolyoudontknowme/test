@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ddebbb0b-9999-4ce0-b055-6ea01037cc6b"
+mode="Global"
+rxversion="8.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CAS_09888_T6V3"
+	namespace="AOI_CRM_Eddie.Module.CRMCase">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CAS_09888_T6V3"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="chkResult"
+		namespace="AOI_CRM_Eddie.Module.CRMCase"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="cf1b3b35-845c-4f86-acc3-626cd3f19680">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="22588ba5-6fda-41e2-9cac-86a18525f203"
+	name="AOI_CRM_EddieRepository"
+	relativepath="..\..\AOI_CRM_EddieRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="AOI_CRM_EddieRepository"
+		namespace="AOI_CRM_Eddie">
+		</codegen>
+		<rootfolder
+		id="f0c4307e-90ba-4ee1-9af3-7f794a7305e2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CAS_09888_T6V3.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

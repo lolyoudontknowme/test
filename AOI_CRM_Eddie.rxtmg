@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="AOI_CRM_Eddie"
+      id="fa7289ef-81fa-4c06-b343-27adc5da2d4c"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="AOI_CRM_Eddie"
+      id="fa7289ef-81fa-4c06-b343-27adc5da2d4c"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

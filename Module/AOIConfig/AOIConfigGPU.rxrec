@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a99cbe0d-9098-449b-926a-2a093a748f8f"
+mode="Global"
+rxversion="8.0">
+	<name>
+		AOIConfigGPU
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AOIConfigGPU"
+	namespace="AOI_CRM_Eddie.Module.AOIConfig">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="AOIConfigGPU"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="configGPU"
+		namespace="AOI_CRM_Eddie.Module.AOIConfig"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="ea160532-70c2-4a94-bcc0-d6dcd1fcde4b">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="22588ba5-6fda-41e2-9cac-86a18525f203"
+	name="AOI_CRM_EddieRepository"
+	relativepath="..\..\AOI_CRM_EddieRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="AOI_CRM_EddieRepository"
+		namespace="AOI_CRM_Eddie">
+		</codegen>
+		<rootfolder
+		id="f0c4307e-90ba-4ee1-9af3-7f794a7305e2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AOIConfigGPU.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
